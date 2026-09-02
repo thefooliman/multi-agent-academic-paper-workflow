@@ -1,0 +1,9 @@
+{
+  "target_language": "en",
+  "max_iter_per_chapter": 4,
+  "intensity": "standard",
+  "score_pass_line": 42,
+  "score_rewrite_line": 35,
+  "paper_page_hint": 30,
+  "enable_manual_iter_confirm": true
+}

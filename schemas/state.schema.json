@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Global Workflow State Schema",
+  "required": ["mode", "task_title", "outline", "current_chapter_index", "workflow_phase", "chapters", "config"],
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": ["write", "check"]
+    },
+    "task_title": {
+      "type": "string"
+    },
+    "voice_sample": {
+      "type": "string",
+      "description": "Optional author writing sample used for voice matching"
+    },
+    "outline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["index", "title"],
+        "properties": {
+          "index": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "requirements": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "current_chapter_index": {
+      "type": "integer"
+    },
+    "workflow_phase": {
+      "type": "string",
+      "enum": ["collect_requirements", "confirm_outline", "writing", "polishing", "guard_check", "self_review", "blind_check", "awaiting_user_confirm", "global_finalize", "done"]
+    },
+    "iteration_count": {
+      "type": "integer"
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["index", "title", "content", "status", "iteration_count"],
+        "properties": {
+          "index": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["pending", "in_progress", "passed", "terminated_by_user", "max_iter_reached"]
+          },
+          "iteration_count": {
+            "type": "integer"
+          },
+          "problem_lists": {
+            "type": "object",
+            "properties": {
+              "self_review": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "blind_check": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "guard": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "next_rewrite_instruction": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "config": {
+      "type": "object"
+    }
+  }
+}

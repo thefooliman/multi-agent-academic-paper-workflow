@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Chapter Content Schema",
+  "description": "Single chapter content produced by writer or polishing agents",
+  "required": ["chapter_index", "chapter_title", "chapter_content"],
+  "properties": {
+    "chapter_index": {
+      "type": "integer"
+    },
+    "chapter_title": {
+      "type": "string"
+    },
+    "chapter_content": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "multi-agent-academic-paper-workflow",
+  "owner": {
+    "name": "thefooliman"
+  },
+  "description": "Academic paper writing and humanizing plugins for Claude Code.",
+  "plugins": [
+    {
+      "name": "paper-agent-workflow",
+      "source": "./",
+      "description": "Multi-agent academic paper workflow: structured chapter writing, iterative polishing, double review, and breakpoint resume.",
+      "license": "MIT",
+      "repository": "https://github.com/thefooliman/multi-agent-academic-paper-workflow",
+      "keywords": ["academic", "writing", "humanizer", "de-aigc", "paper"]
+    }
+  ]
+}

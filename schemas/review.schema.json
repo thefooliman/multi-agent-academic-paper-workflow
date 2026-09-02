@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Review Report Schema",
+  "required": ["chapter_index", "reviewer_type", "problems", "template_density_estimate"],
+  "properties": {
+    "chapter_index": {
+      "type": "integer"
+    },
+    "reviewer_type": {
+      "type": "string",
+      "enum": ["self-review", "blind-fact-check"]
+    },
+    "problems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "template_density_estimate": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    }
+  }
+}

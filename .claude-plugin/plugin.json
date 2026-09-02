@@ -1,0 +1,5 @@
+{
+  "name": "paper-agent-workflow",
+  "version": "1.0.0",
+  "description": "Multi-agent academic paper writing and iterative polishing workflow for Claude Code."
+}

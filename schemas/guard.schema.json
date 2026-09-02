@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Guard Enforcement Report Schema",
+  "required": ["chapter_index", "ruleset", "compliant", "violations"],
+  "properties": {
+    "chapter_index": {
+      "type": "integer"
+    },
+    "ruleset": {
+      "type": "string",
+      "enum": ["polishing", "global"]
+    },
+    "compliant": {
+      "type": "boolean"
+    },
+    "violations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
