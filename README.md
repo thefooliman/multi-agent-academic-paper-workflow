@@ -50,7 +50,7 @@ Keep the whole tree intact: `skills/`, `agents/`, `configs/`, `schemas/`, `utils
 
 ### Write a paper
 
-Run `/paper-write`. It asks for the topic, an outline (paste one or let it draft one), target length, intensity, and optionally a sample of your own previous writing for voice matching. That last one matters: hand it a paragraph you wrote, and the output matches your rhythm and word choices instead of a generic "human" style.
+Run `/paper-write`. It asks for the topic, an outline (paste one or let it draft one), target length, intensity, and optionally a sample of your own previous writing for voice matching. That last one matters: hand it a paragraph you wrote, and the output matches your rhythm and word choices instead of a generic "human" style. Writing your own viewpoints and judgments into the prompt helps the same way — the more of your own thinking you feed in, the more it reads like you and not a clean summary.
 
 ### Humanize an existing draft
 

@@ -211,6 +211,23 @@ restates vague claims instead of adding facts.
 
 Add dates or public actions only when the source provides them.
 
+### 2.10 Roadmap preview 🔴
+
+The tell: "This paper is organized as follows: Section 2 describes…, Section 3
+reviews…, Section 4 discusses…" with rigid parallel phrasing.
+
+Fix: drop it, or name what each section actually contributes. A specific roadmap
+("the next section separates supply from demand effects") is fine; a mechanical
+list is not.
+
+### 2.11 Definitional repetition 🟡
+
+The tell: glossing the term's own name ("the word 'rebound' is apt, because…",
+"By 'decentralization' we mean…"). AI does this more than humans.
+
+Fix: cut the gloss, or fold the definition into the argument instead of
+announcing it.
+
 ---
 
 ## Group 3 · Word and grammar habits
@@ -474,6 +491,40 @@ Watch for polished clichés that read "textbook but anonymous": looming
 exhaustion, run against intuition, unsettle policy design, at first glance,
 lends support to. They are not wrong; they are just not yours. Replace with a
 phrase specific to your argument.
+
+---
+
+## Group 8 · Content humanness (argue, don't survey)
+
+Style rules fix how a paper sounds; this group fixes what it does. The deepest
+tell in the test output was not a word choice. It was that the text surveyed the
+debate without taking a side. A real researcher argues.
+
+### 8.1 Take a position 🔴
+
+Do not just report that "views differ" or "the evidence is mixed". State what you
+think and defend it. A thesis, not a summary.
+
+- Before: "The literature offers competing explanations for the rebound effect."
+- After: "The economy-wide rebound is the one that matters for policy, and it is
+  the least well measured."
+
+### 8.2 Critique prior work 🔴
+
+Name what a specific claim gets wrong or leaves out, rather than "some argue X,
+others argue Y". Engage the strongest version of the opposing view, then say
+where it breaks.
+
+### 8.3 Make judgments 🟡
+
+"The key flaw is…", "the more likely reading is…", "this matters because…".
+Explicit evaluation, not neutral reporting.
+
+### 8.4 Show your angle 🟡
+
+Why this question, why this framing, what you bring to it. This is where "I
+think" and "we argue" belong, inside the reasoning, not in a set-piece
+declaration.
 
 ---
 
