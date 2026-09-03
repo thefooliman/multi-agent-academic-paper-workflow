@@ -14,8 +14,9 @@ Reference files:
 
 Academic prose already has the right voice: neutral, precise, third-person
 plural, each claim backed by evidence. The job is to strip the machine tells
-without making it casual, and to hold the line that every claim earns its number
-or citation and no verb overreaches its evidence.
+without making it casual, to restore the human texture that is missing
+(humanizer-patterns-en.md Group 7), and to hold the line that every claim earns
+its number or citation and no verb overreaches its evidence.
 
 ## What does not help (don't do these)
 
@@ -41,7 +42,8 @@ or citation and no verb overreaches its evidence.
 
 1. Read the text and any writing sample; note the document type.
 2. Audit without editing: list each tell with its location and fix, and each
-   claim's evidence status.
+   claim's evidence status. Check every group in humanizer-patterns-en.md every
+   pass, including Group 7 (missing texture), not just the removal patterns.
 3. Rewrite: same structure and content, tells removed, overclaims matched to
    evidence, legitimate hedging kept.
 4. Report: cleaned text plus a short change log (what was removed, what was

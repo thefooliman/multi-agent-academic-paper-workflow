@@ -83,6 +83,7 @@ Phases: writing / polishing / guard_check / self_review / blind_check / awaiting
 - If a sub-agent returns non-JSON, first try to extract the JSON (from the first { to the last } brace) and validate it against the schema; only re-prompt once if that fails.
 - Never summarize or omit items from the problem lists when showing them to the user.
 - Dispatch sub-agents by their role name (writer / polishing / self-review / blind-fact-check / guard / io-worker). If a scoped name is required, use "paper-agent-workflow:<name>".
+- Manage state.json and workflow-log.json with the Read/Write/Edit file tools directly. Never shell out to Python or any Bash command for state or log changes; Bash triggers permission prompts and interrupts the flow. The Python helper in utils/state_manager.py is for manual debugging only.
 
 ## Default rules (fallback if the config files are not found)
 

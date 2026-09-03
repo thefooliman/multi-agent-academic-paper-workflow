@@ -84,8 +84,12 @@ Does it show a real researcher's stance, choices, and judgment?
   and even a surprise admitted.
 
 Credit: "we use [method] rather than [alternative] because…", "this surprised
-us; the theory predicted…", "limited by data, we cannot…".
-Penalty: "本文认为…" (overused), "研究表明…" (unnamed), "众所周知…".
+us; the theory predicted…", "limited by data, we cannot…", vivid verbs
+(undermine, erode, dwarf), subjective adverbs where they fit (arguably,
+strikingly, tellingly).
+Penalty: "本文认为…" (overused), "研究表明…" (unnamed), "众所周知…", safe-verb
+monotony (is/remains/raises everywhere), abstract-noun subjects throughout,
+"we" only in set-piece declarations.
 
 Self-check: "we" 2–3 times? researcher choices shown? a surprise admitted?
 

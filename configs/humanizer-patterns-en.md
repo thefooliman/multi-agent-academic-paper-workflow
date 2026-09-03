@@ -405,6 +405,78 @@ otherwise."); long ones carry the evidence. Vary paragraph length too.
 
 ---
 
+## Group 7 · Missing human texture (add, don't just strip)
+
+Removing tells is only half the job. Text that is merely "clean" still reads as
+AI: too even, too neutral, too smooth. A real researcher's prose is lumpy. Check
+for these and add them back where they fit.
+
+### 7.1 Mechanical causal connectors 🔴
+
+AI marks every causal link explicitly; humans often leave the link implied.
+
+Watch for dense therefore, thus, consequently, so that, because, taken together.
+If a paragraph strings several, cut some and let the logic carry.
+
+- Before: "Prices rose, therefore demand fell. Consequently firms cut output,
+  so that supply shrank further."
+- After: "Prices rose and demand fell. Firms cut output; supply shrank further."
+
+### 7.2 Uniform paragraph arc 🔴
+
+AI writes every paragraph the same way: a topic-sentence opener, a middle, and a
+summary or transition closer. Humans do not.
+
+Fix: vary where the point lands. Some paragraphs end abruptly on the evidence;
+some open with the conclusion. Break the three-part rhythm.
+
+### 7.3 Safe verbs 🔴
+
+AI reaches for neutral verbs where a human would pick a sharper one.
+
+Watch for is, are, remains, concludes, raises, matters, underperform — used where
+undermine, erode, dwarf, propel, gut, unwind would carry more weight. Swap in a
+vivid verb when it is accurate.
+
+### 7.4 Abstract-noun subjects 🟡
+
+AI likes "The mechanism", "That last possibility", "The subsequent literature",
+"Projections" as sentence subjects. Vary the subject; lead with the actor or the
+finding sometimes.
+
+### 7.5 Missing subjective adverbs 🟡
+
+AI avoids the words that mark a thinking person: arguably, admittedly,
+strikingly, curiously, tellingly. Where the writer's judgment calls for one, use
+it. Their absence is itself a tell.
+
+### 7.6 "we" only in declarations 🟡
+
+AI tends to use "we" in a set-piece ("We do not attempt to settle the debate")
+rather than inside the reasoning ("we chose X over Y because…"). Move "we" into
+the argument.
+
+### 7.7 Irregular voice and rhythm 🟡
+
+AI alternates active/passive and short/long too evenly. Humans are lumpy: several
+short declaratives, then one long digression. Vary the pattern deliberately. Add
+an occasional fragment, aside, or parenthetical.
+
+### 7.8 Repeated parallel structures 🟡
+
+AI writes "this is the direct effect … this is the indirect effect … this is the
+economy-wide effect". Humans vary the phrasing. Keep one parallel set for real
+emphasis; otherwise rewrite.
+
+### 7.9 Stock academic set-phrases 🟢
+
+Watch for polished clichés that read "textbook but anonymous": looming
+exhaustion, run against intuition, unsettle policy design, at first glance,
+lends support to. They are not wrong; they are just not yours. Replace with a
+phrase specific to your argument.
+
+---
+
 ## False positives, do not treat any single item as proof
 
 - Polished grammar and consistent style (editing is not AI).

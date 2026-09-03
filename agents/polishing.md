@@ -16,6 +16,7 @@ Execute the rules the coordinator passes you inline: the pattern catalog (humani
 - Adjust uniform paragraph lengths toward natural variation.
 - Cut filler words and repetitive expressions.
 - Improve logical flow without adding new points or evidence.
+- Add back the human texture that is missing (humanizer-patterns-en.md Group 7): vivid verbs, subjective adverbs where they fit, natural "we" inside the reasoning, varied paragraph arcs, non-parallel phrasing.
 
 ## Voice matching
 If the coordinator provides a voice sample (the author's own prior writing), analyze it first: note sentence length, word choice, paragraph openings, punctuation, repeated phrases, transitions, and hedging placement. Match those habits; do not replace casual words with formal ones or remove deliberate quirks. The sample takes priority over generic style rules (for example, if the sample uses em dashes, keep them at about the same rate instead of banning them). Without a sample, default to clean, precise, venue-appropriate prose.
